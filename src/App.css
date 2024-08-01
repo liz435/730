@@ -5,6 +5,17 @@
   text-align: center;
 }
 
+.scroll-progress {
+  height: 5px;
+  background: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform-origin: 0%;
+}
+
+
 .logo {
   height: 6em;
   padding: 1.5em;
