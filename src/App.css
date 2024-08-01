@@ -28,13 +28,19 @@
 }
 
 .rightSide{
+  border-radius: 15px;
   width: 61vw;
   padding: 3rem;
   margin-left: 1rem;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  background-color: #1a1a1a;
+  background-color: #1a1a1a53;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  
 
 }
 
@@ -60,6 +66,10 @@
   }
 }
 
+.tag-describ{
+  color:#0f2916;
+}
+
 .tag button{
   margin-right: 0.6em;
   margin-top: 1em;
@@ -68,9 +78,6 @@
 .tag button:last-child {
   margin-right: 0;
 }
-
-
-
 
 
 .tag button:after{
@@ -83,4 +90,11 @@
 
 .read-the-docs {
   color: #888;
+  max-width: 600px;
+}
+
+
+.read-the-docs p {
+  margin: 0;
+  margin-top: 3em;
 }
